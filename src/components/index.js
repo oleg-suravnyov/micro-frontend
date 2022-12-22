@@ -1,3 +1,3 @@
-import TheStakeApp from "./TheStakeApp";
+import TheSuperApp from "./TheSuperApp";
 
-export { TheStakeApp };
+export { TheSuperApp };

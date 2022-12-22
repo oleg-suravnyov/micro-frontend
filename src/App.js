@@ -1,7 +1,7 @@
-import TheStakeApp from "./components/TheStakeApp";
+import TheSuperApp from "./components/TheSuperApp";
 
 function App() {
-  return <TheStakeApp></TheStakeApp>;
+  return <TheSuperApp></TheSuperApp>;
 }
 
 export default App;
