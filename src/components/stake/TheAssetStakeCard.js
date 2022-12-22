@@ -87,36 +87,26 @@ export const TheAssetStakeCard = () => {
   return (
     <>
       <div className="asset-stake-card-container">
-        <div className="asset-stake-card-header">Stake</div>
-
         <div className="asset-stake-card-content">
-          <div className="asset-stake-card-bold">
-            Stake Balance:
-            <span className="asset-stake-card-plain">
+          <div className="asset-stake-card-column">
+            <div>Balance:</div>
+            <div>Estimation:</div>
+          </div>
+          <div className="asset-stake-card-column">
+            <div>
               {assetStake.balance != undefined
                 ? assetStake.balance
                 : "Loading..."}
-            </span>
-            {assetStake.balance ? (
-              <button className="asset-stake-card-button" onClick={withdraw}>
-                Withdraw
-              </button>
-            ) : (
-              <button className="asset-stake-card-button" disabled>
-                Withdraw
-              </button>
-            )}
-          </div>
-          <div className="asset-stake-card-bold">
-            Estimation:
-            <span className="asset-stake-card-plain">
-              {estimation ? Number(estimation).toFixed(10) : 0}
-            </span>
+            </div>
+            <div>{estimation ? Number(estimation).toFixed(10) : 0}</div>
           </div>
         </div>
-
         <div className="asset-stake-card-action">
-          <input value={assets} onChange={updateAssets}></input>
+          <input
+            className="asset-stake-card-input"
+            value={assets}
+            onChange={updateAssets}
+          ></input>
           {assets ? (
             <button className="asset-stake-card-button" onClick={stake}>
               Stake
