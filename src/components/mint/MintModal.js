@@ -1,3 +1,5 @@
+import React from "react";
+
 import "./MintModal.css";
 
 export const MintModal = (props) => {

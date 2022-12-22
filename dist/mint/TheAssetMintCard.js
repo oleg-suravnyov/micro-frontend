@@ -1,4 +1,4 @@
-import { useEffect, useContext, useState } from "react";
+import React, { useEffect, useContext, useState } from "react";
 import { ConnectionContext } from "microfrontend-context";
 import { AssetContext } from "microfrontend-context";
 import MintModal from "./MintModal";

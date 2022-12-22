@@ -1,3 +1,4 @@
+import React from "react";
 import { AssetProvider } from "microfrontend-context";
 import TheAssetMintCard from "../mint/TheAssetMintCard";
 import "./TheAssetMintPage.css";
