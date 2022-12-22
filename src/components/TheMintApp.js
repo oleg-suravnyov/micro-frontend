@@ -1,3 +1,5 @@
+import React from "react";
+
 import { ConnectionProvider } from "microfrontend-context";
 
 import TheHeader from "./header/TheHeader";
