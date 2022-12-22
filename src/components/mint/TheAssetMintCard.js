@@ -51,34 +51,30 @@ export const TheAssetMintCard = () => {
   return (
     <>
       <div className="asset-card-container">
-        <div className="asset-card-header">Mint</div>
-
         <div className="asset-card-content">
-          <div className="asset-card-bold">
-            Price:
-            <span className="asset-card-plain">
-              {asset.currency ? asset.currency.formatted : "Loading..."}
-            </span>
+          <div className="asset-card-column">
+            <div>Balance:</div>
+            <div>Price:</div>
           </div>
-          <div className="asset-card-bold">
-            Assets Balance:
-            <span className="asset-card-plain">
+          <div className="asset-card-column">
+            <div>
               {asset.balance != undefined ? asset.balance : "Loading..."}
-            </span>
+            </div>
+            <div>
+              {asset.currency ? asset.currency.formatted : "Loading..."}
+            </div>
           </div>
         </div>
 
-        <div className="asset-card-action">
-          {asset.currency ? (
-            <button className="asset-card-button" onClick={mint}>
-              Mint
-            </button>
-          ) : (
-            <button className="asset-card-button" disabled>
-              Mint
-            </button>
-          )}
-        </div>
+        {asset.currency ? (
+          <button className="asset-card-button" onClick={mint}>
+            Mint
+          </button>
+        ) : (
+          <button className="asset-card-button" disabled>
+            Mint
+          </button>
+        )}
       </div>
       <MintModal show={result.show} result={result} />
     </>

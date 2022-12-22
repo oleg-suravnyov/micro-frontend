@@ -7,7 +7,10 @@ import "./TheHeader.css";
 const TheHeader = () => {
   return (
     <div className="header-container">
-      <TheMMConnectButton />
+      <div className="header-logo header-cell">MINT</div>
+      <div className="header-cell">
+        <TheMMConnectButton />
+      </div>
     </div>
   );
 };
