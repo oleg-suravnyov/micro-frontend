@@ -102,7 +102,7 @@ const AssetStake = (address) => {
       );
       console.log("[AssetStakeContext.estimate]", "estimate", estimate);
 
-      return estimate;
+      return ethers.utils.formatEther(estimate);
     } catch (e) {
       console.log("[AssetStakeContext.estimate]", "error", e);
     }
