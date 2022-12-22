@@ -1,4 +1,4 @@
-import { useEffect, useContext, useState } from "react";
+import React, { useEffect, useContext, useState } from "react";
 
 import { ConnectionContext } from "microfrontend-context";
 import { AssetStakeContext } from "microfrontend-context";

@@ -1,5 +1,7 @@
-import { useEffect, useContext } from "react";
+import React, { useEffect, useContext } from "react";
+
 import { ConnectionContext } from "microfrontend-context";
+
 import "./TheMMConnectButton.css";
 
 const TheMMConnectButton = () => {

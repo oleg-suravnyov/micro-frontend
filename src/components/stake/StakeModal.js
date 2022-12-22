@@ -1,3 +1,5 @@
+import React from "react";
+
 import "./StakeModal.css";
 
 export const StakeModal = (props) => {

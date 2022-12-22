@@ -1,3 +1,5 @@
+import React from "react";
+
 import { AssetStakeProvider } from "microfrontend-context";
 
 import TheAssetStakeCard from "../stake/TheAssetStakeCard";
