@@ -1,0 +1,42 @@
+.asset-card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.asset-card-content {
+  display: flex;
+  justify-content: space-evenly;
+  width: 821px;
+  height: 290px;
+  background: #4e4e4e;
+  border: 4px solid #ebe6d9;
+  font-family: "Palatino";
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 70px;
+  color: #ebe6d9;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.asset-card-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.asset-card-button {
+  margin-top: 100px;
+  width: 271px;
+  height: 107px;
+  background: #ebe6d9;
+  font-family: "Avenir";
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 87px;
+  letter-spacing: 0.2px;
+  color: #bd3f2c;
+}

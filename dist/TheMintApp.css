@@ -1,0 +1,18 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background: #2b2b2b;
+}
+
+.g-header {
+  flex-shrink: 0;
+}
+
+.g-content {
+  flex-grow: 1;
+}
