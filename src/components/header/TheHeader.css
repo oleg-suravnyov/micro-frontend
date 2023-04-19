@@ -1,0 +1,19 @@
+.header-container {
+  display: flex;
+  height: 220px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 135px;
+}
+
+.header-cell {
+  flex-grow: 1;
+}
+
+.header-logo {
+  font-family: "Futura";
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 85px;
+  color: #2b2b2b;
+}

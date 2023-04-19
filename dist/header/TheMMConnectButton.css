@@ -1,0 +1,23 @@
+.connect-button-container {
+  display: flex;
+  justify-content: end;
+}
+
+.connect-button {
+  width: 233px;
+  height: 73px;
+
+  border: 4px solid #bd3f2c;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+
+  background: #ddd8cb;
+  color: #2b2b2b;
+}
+
+.connect-button:hover {
+  background: #4e4e4e;
+  color: #ebe6d9;
+}
